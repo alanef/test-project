@@ -44,6 +44,56 @@ nav a:hover {
     background-color: rgba(255,255,255,0.2);
 }
 
+.welcome-banner {
+    background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    color: white;
+    padding: 3rem 0;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.welcome-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.welcome-banner h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: white;
+    border: none;
+    padding: 0;
+    font-weight: 300;
+}
+
+.welcome-banner p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.welcome-highlights {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.highlight {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: 500;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.highlight:hover {
+    transform: translateY(-2px);
+    background: rgba(255, 255, 255, 0.3);
+}
+
 main {
     max-width: 1200px;
     margin: 0 auto;
@@ -130,6 +180,27 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 1rem;
+    }
+
+    .welcome-banner {
+        padding: 2rem 0;
+    }
+
+    .welcome-banner h2 {
+        font-size: 2rem;
+    }
+
+    .welcome-banner p {
+        font-size: 1.1rem;
+    }
+
+    .welcome-highlights {
+        gap: 1rem;
+    }
+
+    .highlight {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
     }
 
     main {

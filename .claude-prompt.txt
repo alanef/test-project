@@ -1,9 +1,6 @@
-Issue to solve: TP-1 - Create a simple github pages  website
+Issue to solve: TP-4 - Add   a welcome message
 Your working directory: /app/repos/test-project
-Your branch: task/TP-1-create-a-simple-github-pages-w
-
-Issue Description:
-Build a very simple  website use github pages and writeteh readme to explain how to deploy
+Your branch: task/TP-4-add-a-welcome-message
 
 Instructions:
 1. Analyze the issue thoroughly
