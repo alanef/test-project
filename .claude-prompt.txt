@@ -1,0 +1,33 @@
+Issue to solve: TP-1 - Create a simple github pages  website
+Your working directory: /app/repos/test-project
+Your branch: task/TP-1-create-a-simple-github-pages-w
+
+Issue Description:
+Build a very simple  website use github pages and writeteh readme to explain how to deploy
+
+Instructions:
+1. Analyze the issue thoroughly
+2. Implement a complete solution following the repository's patterns
+3. Add or update tests as needed
+4. Follow existing code style and conventions
+
+5. After implementation is complete, you MUST provide:
+
+SUMMARY:
+Provide a detailed summary of ALL changes made, including:
+- Files created or modified
+- Key functions/methods added or changed
+- Any configuration changes
+- Dependencies added (if any)
+
+TEST_PLAN:
+Provide a detailed, numbered checklist of specific things to test, including:
+- Exact URLs, buttons, or commands to test
+- Expected behavior for each test
+- Edge cases to verify
+- Any error conditions to check
+- Specific data inputs to try
+Format each test item as: '[ ] Test description - Expected result'
+Be specific about WHERE to test (which page, endpoint, or command)
+
+Proceed with implementation.
