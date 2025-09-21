@@ -1,9 +1,9 @@
-Issue to solve: TP-1 - Create a simple github pages  website
+Issue to solve: TP-2 - Replace  the static site
 Your working directory: /app/repos/test-project
-Your branch: task/TP-1-create-a-simple-github-pages-w
+Your branch: task/TP-2-replace-the-static-site
 
 Issue Description:
-Build a very simple  website use github pages and writeteh readme to explain how to deploy
+Replac eteh entire static site  create a new site that is a summary of https://alanfuller.co.uk   with a big buttton to visit
 
 Instructions:
 1. Analyze the issue thoroughly
