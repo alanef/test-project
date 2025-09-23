@@ -1,4 +1,4 @@
-# Test Project - Simple GitHub Pages Website
+# Projet de Test - Site Web Simple GitHub Pages
 
 A simple, responsive website built with HTML and CSS, designed to be deployed on GitHub Pages.
 
