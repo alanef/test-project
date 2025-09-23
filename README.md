@@ -1,54 +1,54 @@
-# Test Project - Simple GitHub Pages Website
+# Test-Projekt - Einfache GitHub Pages Website
 
-A simple, responsive website built with HTML and CSS, designed to be deployed on GitHub Pages.
+Eine einfache, responsive Website, die mit HTML und CSS erstellt wurde und für die Bereitstellung auf GitHub Pages konzipiert ist.
 
-## 🌟 Features
+## 🌟 Funktionen
 
-- Clean, responsive design
-- Modern CSS with gradient backgrounds
-- Smooth scrolling navigation
-- Mobile-friendly layout
-- Easy to customize and extend
+- Sauberes, responsives Design
+- Modernes CSS mit Farbverlaufshintergründen
+- Sanfte Scroll-Navigation
+- Mobilfreundliches Layout
+- Einfach anzupassen und zu erweitern
 
-## 🚀 Live Demo
+## 🚀 Live-Demo
 
-Once deployed, your website will be available at: `https://[your-username].github.io/[repository-name]`
+Nach der Bereitstellung wird Ihre Website unter folgender Adresse verfügbar sein: `https://[ihr-benutzername].github.io/[repository-name]`
 
-## 📁 Project Structure
+## 📁 Projektstruktur
 
 ```
 test-project/
-├── index.html      # Main HTML file
-├── styles.css      # CSS styling
-└── README.md       # This file
+├── index.html      # Haupt-HTML-Datei
+├── styles.css      # CSS-Styling
+└── README.md       # Diese Datei
 ```
 
-## 🛠️ How to Deploy to GitHub Pages
+## 🛠️ Bereitstellung auf GitHub Pages
 
-### Method 1: Using GitHub Web Interface (Recommended)
+### Methode 1: Verwendung der GitHub-Weboberfläche (Empfohlen)
 
-1. **Push your code to GitHub** (if not already done):
+1. **Code zu GitHub hochladen** (falls noch nicht geschehen):
    ```bash
    git add .
    git commit -m "Add simple GitHub Pages website"
    git push origin main
    ```
 
-2. **Enable GitHub Pages**:
-   - Go to your repository on GitHub
-   - Click on **Settings** tab
-   - Scroll down to **Pages** section in the left sidebar
-   - Under **Source**, select **Deploy from a branch**
-   - Choose **main** branch and **/ (root)** folder
-   - Click **Save**
+2. **GitHub Pages aktivieren**:
+   - Gehen Sie zu Ihrem Repository auf GitHub
+   - Klicken Sie auf den **Settings**-Tab
+   - Scrollen Sie nach unten zum **Pages**-Bereich in der linken Seitenleiste
+   - Unter **Source** wählen Sie **Deploy from a branch**
+   - Wählen Sie den **main**-Branch und den **/ (root)**-Ordner
+   - Klicken Sie auf **Save**
 
-3. **Access your website**:
-   - GitHub will provide a URL like: `https://[your-username].github.io/[repository-name]`
-   - It may take a few minutes for the site to be available
+3. **Auf Ihre Website zugreifen**:
+   - GitHub stellt eine URL bereit wie: `https://[ihr-benutzername].github.io/[repository-name]`
+   - Es kann einige Minuten dauern, bis die Seite verfügbar ist
 
-### Method 2: Using GitHub Actions (Advanced)
+### Methode 2: Verwendung von GitHub Actions (Fortgeschritten)
 
-1. Create `.github/workflows/pages.yml`:
+1. Erstellen Sie `.github/workflows/pages.yml`:
    ```yaml
    name: Deploy to GitHub Pages
 
@@ -68,13 +68,13 @@ test-project/
              publish_dir: ./
    ```
 
-2. Push the workflow file and your site will auto-deploy on every push.
+2. Laden Sie die Workflow-Datei hoch und Ihre Seite wird bei jedem Push automatisch bereitgestellt.
 
-## 🔧 Local Development
+## 🔧 Lokale Entwicklung
 
-To test your website locally:
+Um Ihre Website lokal zu testen:
 
-1. **Simple HTTP Server** (Python):
+1. **Einfacher HTTP-Server** (Python):
    ```bash
    # Python 3
    python -m http.server 8000
@@ -82,77 +82,77 @@ To test your website locally:
    # Python 2
    python -m SimpleHTTPServer 8000
    ```
-   Then open `http://localhost:8000`
+   Öffnen Sie dann `http://localhost:8000`
 
-2. **Live Server** (VS Code Extension):
-   - Install the "Live Server" extension
-   - Right-click on `index.html`
-   - Select "Open with Live Server"
+2. **Live Server** (VS Code-Erweiterung):
+   - Installieren Sie die "Live Server"-Erweiterung
+   - Rechtsklick auf `index.html`
+   - Wählen Sie "Open with Live Server"
 
 3. **Node.js http-server**:
    ```bash
    npx http-server
    ```
 
-## 🎨 Customization
+## 🎨 Anpassung
 
-### Changing Colors
-Edit the CSS variables in `styles.css`:
-- Header gradient: `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`
-- Accent colors: `#667eea` and `#764ba2`
+### Farben ändern
+Bearbeiten Sie die CSS-Variablen in `styles.css`:
+- Header-Verlauf: `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`
+- Akzentfarben: `#667eea` und `#764ba2`
 
-### Adding Content
-- Modify sections in `index.html`
-- Add new pages by creating additional `.html` files
-- Update navigation links in the header
+### Inhalte hinzufügen
+- Ändern Sie Abschnitte in `index.html`
+- Fügen Sie neue Seiten hinzu, indem Sie zusätzliche `.html`-Dateien erstellen
+- Aktualisieren Sie die Navigationslinks im Header
 
-### Adding Images
-1. Create an `images/` folder
-2. Add your images to the folder
-3. Reference them in HTML: `<img src="images/your-image.jpg" alt="Description">`
+### Bilder hinzufügen
+1. Erstellen Sie einen `images/`-Ordner
+2. Fügen Sie Ihre Bilder zum Ordner hinzu
+3. Referenzieren Sie sie im HTML: `<img src="images/ihr-bild.jpg" alt="Beschreibung">`
 
-## 📱 Responsive Design
+## 📱 Responsives Design
 
-The website includes responsive design features:
-- Mobile-friendly navigation
-- Flexible grid layout
-- Scalable typography
-- Touch-friendly buttons
+Die Website enthält responsive Design-Funktionen:
+- Mobilfreundliche Navigation
+- Flexibles Grid-Layout
+- Skalierbare Typografie
+- Berührungsfreundliche Schaltflächen
 
-## 🔗 Custom Domain (Optional)
+## 🔗 Eigene Domain (Optional)
 
-To use a custom domain:
+Um eine eigene Domain zu verwenden:
 
-1. Create a `CNAME` file in the root directory with your domain:
+1. Erstellen Sie eine `CNAME`-Datei im Stammverzeichnis mit Ihrer Domain:
    ```
-   yourdomain.com
+   ihredomain.com
    ```
 
-2. Configure DNS records with your domain provider:
-   - Add a CNAME record pointing to `[your-username].github.io`
+2. Konfigurieren Sie DNS-Einträge bei Ihrem Domain-Anbieter:
+   - Fügen Sie einen CNAME-Eintrag hinzu, der auf `[ihr-benutzername].github.io` zeigt
 
-3. Update GitHub Pages settings to use your custom domain
+3. Aktualisieren Sie die GitHub Pages-Einstellungen, um Ihre eigene Domain zu verwenden
 
-## 📝 Troubleshooting
+## 📝 Fehlerbehebung
 
-**Site not loading?**
-- Wait 5-10 minutes after enabling GitHub Pages
-- Check that `index.html` is in the root directory
-- Verify the repository is public (or you have GitHub Pro for private repos)
+**Seite lädt nicht?**
+- Warten Sie 5-10 Minuten nach der Aktivierung von GitHub Pages
+- Überprüfen Sie, dass sich `index.html` im Stammverzeichnis befindet
+- Stellen Sie sicher, dass das Repository öffentlich ist (oder Sie haben GitHub Pro für private Repos)
 
-**Changes not showing?**
-- Clear browser cache
-- Wait a few minutes for GitHub to rebuild the site
-- Check the Actions tab for build status
+**Änderungen werden nicht angezeigt?**
+- Browser-Cache leeren
+- Warten Sie einige Minuten, bis GitHub die Seite neu erstellt
+- Überprüfen Sie den Actions-Tab für den Build-Status
 
-**Custom domain issues?**
-- Verify DNS propagation (can take up to 24 hours)
-- Check CNAME file format (no `http://` or `https://`)
+**Probleme mit eigener Domain?**
+- DNS-Propagation überprüfen (kann bis zu 24 Stunden dauern)
+- CNAME-Dateiformat überprüfen (kein `http://` oder `https://`)
 
-## 📄 License
+## 📄 Lizenz
 
-This project is open source and available under the [MIT License](LICENSE).
+Dieses Projekt ist Open Source und unter der [MIT-Lizenz](LICENSE) verfügbar.
 
-## 🤝 Contributing
+## 🤝 Mitwirkung
 
-Feel free to fork this project and submit pull requests for improvements!
+Forken Sie gerne dieses Projekt und reichen Sie Pull Requests für Verbesserungen ein!
