@@ -1,6 +1,6 @@
 # Projet de Test - Site Web Simple GitHub Pages
 
-A simple, responsive website built with HTML and CSS, designed to be deployed on GitHub Pages.
+Un site web simple et responsive construit avec HTML et CSS, conçu pour être déployé sur GitHub Pages.
 
 ## 🌟 Features
 
