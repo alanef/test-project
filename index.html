@@ -60,7 +60,13 @@
     </main>
 
     <footer>
-        <p>&copy; 2025 Test Project. Hosted on GitHub Pages.</p>
+        <p id="copyright"></p>
     </footer>
+
+    <script>
+        // Dynamically update copyright year
+        document.getElementById('copyright').textContent =
+            '© ' + new Date().getFullYear() + ' Test Project. Hosted on GitHub Pages.';
+    </script>
 </body>
 </html>
