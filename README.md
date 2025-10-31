@@ -5,7 +5,7 @@ A simple, responsive website built with HTML and CSS, designed to be deployed on
 ## 🌟 Features
 
 - Clean, responsive design
-- Modern CSS with gradient backgrounds
+- Modern CSS with solid color header
 - Smooth scrolling navigation
 - Mobile-friendly layout
 - Easy to customize and extend
@@ -97,9 +97,9 @@ To test your website locally:
 ## 🎨 Customization
 
 ### Changing Colors
-Edit the CSS variables in `styles.css`:
-- Header gradient: `linear-gradient(135deg, #667eea 0%, #764ba2 100%)`
-- Accent colors: `#667eea` and `#764ba2`
+Edit the color values in `styles.css`:
+- Header background: `background: #006600;` (line 17)
+- Accent colors: `#667eea` and `#764ba2` (used for h2, h3, feature cards)
 
 ### Adding Content
 - Modify sections in `index.html`
